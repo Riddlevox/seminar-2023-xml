@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <!-- use the EpiDoc Guidelines: https://epidoc.stoa.org/gl/latest/ -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sophocles's Antigone</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="Antigone.xml"></idno>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl>
+            <title level="a">Σοφοκλής: Αντιγόνη</title>
+                <publisher>Ministry of Education</publisher>
+                 <date>2012
+                 </date>
+                 <ref target="https://www.greek-language.gr/digitalResources/ancient_greek/library/browse.html?text_id=154">
+                 </ref>
+            </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>digital/archive</repository>
+                        <idno>Ἀντιγόνη (1-38)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material/>
+                                    and <objectType/>text<dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Text is divided into 69 lines per page of about equal length</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>standard font<height>standard height</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Ancient Greece</origPlace>
+                            <origDate>Probably around 441 BCE</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.greek-language.gr/digitalResources/files/image/library/authors/214.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> 43. εἰ τὸν νεκρὸν ξὺν τῇδε κουφιεῖς χερί.
+                    <lb n="2"/> 44. ἦ γὰρ νοεῖς θάπτειν σφ᾽, ἀπόρρητον πόλει;
+                    <lb n="3"/> 45. ὸν γοῦν ἐμὸν καὶ τὸν σόν, ἢν σὺ μὴ θέλῃς,
+                    <lb n="4"/> 46. ἀδελφόν· οὐ γὰρ δὴ προδοῦσ᾽ ἁλώσομαι.
+                    <lb n="5"/> 47. ὦ σχετλία, Κρέοντος ἀντειρηκότος;
+                    <lb n="6"/> 48. ἀλλ᾽ οὐδὲν αὐτῷ τῶν ἐμῶν ‹μ᾽› εἴργειν μέτα.
+                    <lb n="7"/> 49. οἴμοι· φρόνησον, ὦ κασιγνήτη, πατὴρ
+                    <lb n="8"/> 50. ὡς νῷν ἀπεχθὴς δυσκλεής τ᾽ ἀπώλετο
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>
+                <lb n="1"/> In these verses of Antigone, Antigone and her sister Ismene are having a disagreement about burying their dead brother Polynices
+                <lb n="2"/> Previously in the book, their uncle Kreontas had outlawed Polynices burial as he was declared an enemy of the city
+                <lb n="3"/> Ismene is against the burial as she is unwilling to disobey her uncle/lord whereas Antigone as the protagonist is willing to go against the orders to give her brother a proper burial
+                 </p>
+            </div>
+            <div type="translation">
+                <p>
+                <lb n="1"/> 43. Αν το χέρι αυτό μου εδώ βοηθήσεις το νεκρό να σηκώσουμε.
+                <lb n="2"/> 44. Μα αλήθεια να θάψεις σκέφθηκες αυτόν, που η πόλη απαγορεύει;
+                <lb n="3"/> 45. Ναι, τον αδερφό μου και τον δικό σου, αν εσύ δε θέλεις·
+                <lb n="4"/> 46. γιατί κανένας δε θα πει για μένα πως τον πρόδωσα εγώ
+                <lb n="5"/> 47. Δυστυχισμένη,μόλο που το ᾽χει ο Κρέοντας εμποδίσει;
+                <lb n="6"/> 48. Κανέν᾽ αυτός δικαίωμα δεν έχει να με χωρίσει απ᾽ τους δικούς μου.
+                <lb n="7"/>Οϊμένα,σκέψου, αδερφή μου,
+                <lb n="8"/> πόσο μισημένος και γιομάτος ντροπές μάς χάθηκε ο πατέρας μας, 
+                </p>
+            </div>
+            <div type="edition">
+                <p>Ioannis. N. Gryparis, 2015. Sofoklis' 'Antigone'. Athens: Vivliopolio ths Estias </p>
+            </div>
+            <div type="bibliography">
+                <p>Multiple previous translations of Sophocles's Antigone including ones by K. Xristomanos from 1912, and one by Kwnstantinos Manos from 1904</p>
+            </div>
+        </body>
+    </text>
+</TEI>

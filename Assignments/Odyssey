@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <!-- use the EpiDoc Guidelines: https://epidoc.stoa.org/gl/latest/ -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Homer's Odyssey</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="Odyssey.xml"></idno>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl>
+            <title level="a">Όμηρος: Όδύσσεια</title>
+                <publisher>Ministry of Education</publisher>
+                 <date>2012
+                 </date>
+                 <ref target="https://www.greek-language.gr/digitalResources/ancient_greek/library/browse.html?text_id=133&#038;page=79">
+                 </ref>
+            </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>digital/archive</repository>
+                        <idno>Ὀδύσσεια (11.81-11.149)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material/>
+                                    and <objectType/>text<dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Text is divided into 69 lines per page of about equal length</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>standard font<height>standard height</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Ancient Greece</origPlace>
+                            <origDate>Probably between 8th and 7th century BCE</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context
+                        </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above)
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://www.greek-language.gr/digitalResources/files/image/library/authors/194.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/> 84. Ἦλθε δ᾽ ἐπὶ ψυχὴ μητρὸς κατατεθνηυίης,
+                    <lb n="2"/> 85. Αὐτολύκου θυγάτηρ μεγαλήτορος Ἀντίκλεια,
+                    <lb n="3"/> 86. τὴν ζωὴν κατέλειπον ἰὼν εἰς Ἴλιον ἱρήν.
+                    <lb n="4"/> 87. τὴν μὲν ἐγὼ δάκρυσα ἰδὼν ἐλέησά τε θυμῷ·
+                    <lb n="5"/> 88. ἀλλ᾽ οὐδ᾽ ὣς εἴων προτέρην, πυκινόν περ ἀχεύων,
+                    <lb n="6"/> 89. αἵματος ἆσσον ἴμεν, πρὶν Τειρεσίαο πυθέσθαι.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>
+                <lb n="1"/> Αὐτόλυκος was the son of Hermes by Chione or Philonis, lived on Parnassus with his sons, and is described as one who, by the teaching of Hermes surpassed other humans
+                <lb n="2"/> The characteristic prudence of Odysseus in sacrificing feelings to interest is very noticeable here
+                <lb n="3"/>
+                 </p>
+            </div>
+            <div type="translation">
+                <p>
+                <lb n="1"/> 84. Κι ήλθε η ψυχή της μάνας μου — είχε στο μεταξύ πεθάνει,
+                <lb n="2"/> 85. η Αντίκλεια, κόρη του μεγαλόκαρδου Αυτόλυκου,
+                <lb n="3"/> 86. που ζωντανή την άφησα πηγαίνοντας στην άγια Τροία.
+                <lb n="4"/> 87. Την είδα, και τα μάτια μου γέμισαν δάκρυα, λύπη η ψυχή μου·
+                <lb n="5"/> 88. ωστόσο την εμπόδισα στο αίμα να σιμώσει,
+                <lb n="6"/> 89. μόλο που μ᾽ έτρωγε ο καημός, προτού τον Τειρεσία ρωτήσω για να μάθω.
+                </p>
+            </div>
+            <div type="edition">
+                <p>D. N. Maronitis, 2006. Homer's Odyssey. Institute of Greek Studies. Institution of Manolis Triandafylidis</p>
+            </div>
+            <div type="bibliography">
+                <p>Multiple previous translations of Homer's Odyssey, including ones by Samuel Butler from 1897 which was revised by Timothy Power and Gregory Nagy in 1900</p>
+            </div>
+        </body>
+    </text>
+</TEI>
